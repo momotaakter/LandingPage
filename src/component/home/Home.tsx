@@ -7,6 +7,9 @@ import ResponsiveSection from './ResponsiveSection';
 import DynamicSection from "./DynamicSection";
 import StanderdEcommerse from "./StanderdEcommerse";
 import ImageSection from "./ImageSection";
+import PaymentSection from "./PaymentSection";
+import AnotherFeaturesSection from "./AnotherFeaturesSection";
+import LastSection from "./LastSection";
 
 
 
@@ -98,8 +101,9 @@ export default function Home() {
  <DynamicSection></DynamicSection>
 <StanderdEcommerse></StanderdEcommerse>
 <ImageSection></ImageSection>
-
-
+<PaymentSection></PaymentSection>
+<AnotherFeaturesSection></AnotherFeaturesSection>
+<LastSection></LastSection>
 
     </main>
   );
