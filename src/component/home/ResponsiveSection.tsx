@@ -9,7 +9,7 @@ export default function ResponsiveSection() {
   return (
     <section className="w-full py-12">
       <TitleSection
-        title="Our Responsive Design"
+        title=" Responsive Design"
         paragraph="Experience the future of eCommerce with our comprehensive delivery solution. From smart cart systems to inventory management, we make online operations seamless and efficient."
       />
 

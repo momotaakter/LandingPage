@@ -39,7 +39,7 @@ export default function ImageSection() {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            Creative Design Section
+            Manage coupon and orders
           </motion.h2>
           <motion.p
             className="text-gray-600 text-base sm:text-lg"
@@ -66,7 +66,7 @@ export default function ImageSection() {
           whileHover={{ scale: 1.05 }}
         >
           <Image
-            src="/image/manage-img2.png"
+            src="/image/delivry.png"
             alt="Section 2 Image"
             fill
             className="object-cover rounded-lg shadow-lg hover-scale"
@@ -86,7 +86,7 @@ export default function ImageSection() {
             whileHover={{ scale: 1.02 }}
             transition={{ duration: 0.3 }}
           >
-            Responsive Layout Section
+            Multiple Address Delivery
           </motion.h2>
           <motion.p
             className="text-gray-600 text-base sm:text-lg"

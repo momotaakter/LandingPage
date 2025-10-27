@@ -12,9 +12,10 @@ interface BoxProps {
 }
 
 const boxes: BoxProps[] = [
-  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootstrap v4.00" },
-  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootstrap v4.00" },
-  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootstrap v4.00" },
+  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/paymentsection/paypal.png", text: "Paypal payment" },
+{ bgColor: "bg-[#F3FEFE]", imgSrc: "/image/paymentsection/strip.png", text: "Stripe payment" },
+{ bgColor: "bg-[#F3FEFE]", imgSrc: "/image/paymentsection/money.png", text: "Money" },
+
 ];
 
 const containerVariants = {
@@ -45,7 +46,7 @@ export default function PaymentSection() {
            />
 
       <motion.div
-        className="max-w-[1200px] mx-auto flex flex-wrap justify-center gap-6 pt-9"
+        className="max-w-[1200px] mx-auto flex flex-wrap justify-center gap-12 pt-9"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"

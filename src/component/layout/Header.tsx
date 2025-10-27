@@ -13,6 +13,9 @@ export default function Header() {
         <div className="flex items-center space-x-1 text-2xl font-bold">
           <span className="text-black">HOME</span>
           <span className="text-[#00BABB]">DELIVERY</span>
+              
+
+
         </div>
 
         {/* Desktop Menu */}

@@ -14,7 +14,7 @@ export default function DynamicSection() {
       />
 
       <motion.div
-        className="w-full relative rounded-lg p-4"
+        className="w-full relative rounded-lg p-4 pb-6"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}

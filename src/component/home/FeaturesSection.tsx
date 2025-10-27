@@ -12,9 +12,9 @@ interface BoxProps {
 
 const boxes: BoxProps[] = [
   { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootsrap v4.00" },
-  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootsrap v4.00" },
-  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootsrap v4.00" },
-  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/Bootstrap.jpg", text: "Bootsrap v4.00" },
+  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/speedoptiomization.png", text: "speed Optiomization" },
+  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/js.png", text: "Node Js Script" },
+  { bgColor: "bg-[#F3FEFE]", imgSrc: "/image/featuresSection/responsive.png", text: "fully responsive" },
 ];
 
 const containerVariants = {
